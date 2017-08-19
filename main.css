@@ -1,0 +1,19 @@
+body{
+  background-image: url("http://www.seemadanasricabs.com/background-images-for-websites-3.jpg");
+
+}
+div{
+  margin-top:6cm;
+    color: black;
+      left: 10%;
+}
+button{
+
+  margin:auto;
+  display:block;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    border-radius: 10px;
+}
