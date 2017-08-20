@@ -1,5 +1,5 @@
 body{
-  background-image: url("http://www.seemadanasricabs.com/background-images-for-websites-3.jpg");
+  background-color: black;
 
 }
 div{
@@ -7,13 +7,18 @@ div{
     color: black;
       left: 10%;
 }
-button{
-
-  margin:auto;
+p button{
+  text-align:center;
+  margin-top: 6cm;
   display:block;
     padding-top: 5px;
     background-color: black;
-    color: white;
-    border: thin solid white;
-    border-radius: 10px;
+}
+.center{
+  position: absolute;
+  background-color:white;
+   top: 50%;
+   left: 50%;
+   margin-left: -50px; /* margin is -0.5 * dimension */
+   margin-top: -25px;
 }
