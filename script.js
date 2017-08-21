@@ -31,10 +31,7 @@ return "C";
    }
    else
    {
-     var cTemp = parseFloat($("temp").text()* 9 / 5 + 32);
-
-
-  document.getElementById("temp").innerHTML="<br>"+" Temp: "+ cTemp;
+  document.getElementById("temp").innerHTML="<br>"+" Temp: "+ data.main.temp;
   return "F";
 
    }
